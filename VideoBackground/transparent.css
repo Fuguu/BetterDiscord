@@ -1,0 +1,72 @@
+/* change last number to adjust darkness */
+<<<<<<< HEAD
+.flex-horizontal{ background-color: rgba(25, 25, 25, 0.75);}
+.theme-dark .chat {background-color:transparent;}
+.user-settings-modal-account .flex-horizontal {background:white;}
+=======
+.flex-horizontal{ background-color: rgba(25, 25, 25, 0.90);}
+>>>>>>> origin/master
+
+.fullscreen-bg video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+<<<<<<< HEAD
+.emoji.jumboable
+{ width:50px; height:50px;}
+.emoji
+{ width:50px; height:50px; vertical-align: text-bottom;}
+=======
+>>>>>>> origin/master
+
+/*Transparency*/
+#voice-connection,
+#friends,
+#friends .btn,
+.friends-header,
+.friends-table,
+.search-bar,
+.title-wrap,
+.guilds-wrapper,
+.channels-wrap,
+.guild-channels,
+.account,
+<<<<<<< HEAD
+=======
+.chat,
+>>>>>>> origin/master
+.links,
+.content,
+.chat-empty,
+.message-group-blocked,
+.private-channels,
+.guild-header header,
+.channel-members,
+<<<<<<< HEAD
+.layers,
+.typing,
+.divider-red span,
+.messages-wrapper
+{background: transparent !important;}
+
+.message-group
+{padding: 10px 0px 10px 0px;}
+=======
+.layer,
+.layers,
+#rtc-connection,
+.typing,
+.divider span,
+.divider-red span,
+.messages-wrapper,
+.divider:before,
+.channel-text.selected,
+.channel-text:hover
+{background: transparent !important; border: 0px;}
+>>>>>>> origin/master
