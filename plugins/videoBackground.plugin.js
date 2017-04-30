@@ -37,7 +37,6 @@ videoBackground.prototype.saveSettings = function(button) {
 
     var settings = this.loadSettings();
     settings.video = $("#vbsettings #video").val();
-    settings.type = $("#vbsettings #type").val();
     bdPluginStorage.set("videoBackground", "videoBackground", JSON.stringify(settings));
     this.stop();
     this.start();
@@ -48,13 +47,12 @@ videoBackground.prototype.saveSettings = function(button) {
 
 videoBackground.prototype.start = function() {
 
-	$(".app").after("<div class='fullscreen-bg'><video loop  autoplay class='fullscreen-bg-video'></video></div>");
+	$(".app").after("<div class='fullscreen-bg'><video loop muted autoplay class='fullscreen-bg-video'></video></div>");
     $(".app").css('background', 'transparent');
     
     var settings = this.loadSettings();
     
     var source = document.createElement('source');
-    $(source).attr('type','video/'+settings.type);
     $(source).attr('src', settings.video);
     $(".fullscreen-bg-video").append(source);
 
@@ -73,12 +71,7 @@ videoBackground.prototype.getSettingsPanel = function () {
     var settings = this.loadSettings();
     var html = "<div id='vbsettings'><h1>Video Background</h1><h2>Settings</h2>"
     html += "Video Link (must be https://):<br>"
-    html += "<input id='video' type='text' size='60' value='"+settings.video+"'>";
-    html += "<select id='type'>";
-    html += "<option value='webm' selected>WebM</option>";
-    html += "<option value='mp4'>MP4</option>";
-    html += "<option value='ogg'>Ogg</option>";
-    html += "</select><br><br>";
+    html += "<input id='video' type='text' size='60' value='"+settings.video+"'><br><br>";
     html +="<button id ='save' onclick='videoBackground.prototype.saveSettings(this)'>Save</button> ";
     html += "</div>"
     return html;
