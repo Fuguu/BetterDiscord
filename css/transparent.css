@@ -12,10 +12,6 @@
   transform: translate(-50%, -50%);
 }
 
-.theme-dark .messages-wrapper .messages .divider span{
-    background-color: transparent;
-}
-
 /*Transparency*/
 #voice-connection,
 #friends,
@@ -40,6 +36,7 @@
 .layers,
 #rtc-connection,
 .typing,
+.divider span,
 .divider-red span,
 .messages-wrapper,
 .divider:before,
