@@ -3,7 +3,7 @@ This is a guide to using the plugin. When working, it will insert a `<video>` el
 
 Example: 
 
-![](https://giant.gfycat.com/ClumsyGreenHookersealion.gif)
+![](https://thumbs.gfycat.com/ClumsyGreenHookersealion-size_restricted.gif)
 
 # Install
 Download `videoBackground.plugin.js` and drop it in the BetterDiscord plugin folder. 
@@ -13,6 +13,7 @@ This can be found in:
 + `C:\Users\{name}\AppData\Roaming\BetterDiscord\plugins`
 
 Restart discord and it should show up like so:
+
 ![](https://i.imgur.com/1wzj3HE.png)
 
 Include the following code to your css (this is included in the sample theme):
