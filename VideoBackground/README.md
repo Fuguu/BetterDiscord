@@ -1,5 +1,5 @@
 # Video Background for BetterDiscord
-This is a guide to using the plugin. When working, it will insert a `<video>` element under the page which requires some css to make visible. I provided a sample css theme that will do so.
+This is a guide to using the plugin. When working, it will insert a `<video>` element under the page which requires some css to make visible. I have provided a sample css theme that will do so.
 
 Example: 
 
@@ -30,9 +30,31 @@ Include the following code to your css (this is included in the sample theme):
 }
 ```
 
-# Setting Video
+# Setting up Video
 Clicking on the `Settings` button will open a window like so:
 
 ![](https://i.imgur.com/kWQK9za.png)
 
 The link must be a direct link to any `MP4/WebM/OGG` file. This work with websites such as Streamable and Gfycat. The link must also be https:// or the video will not play. Hit save and if the css has been set up, it should appear.
+
+# Getting Direct Link
+<h4>Streamable</h4>
+
+On any streamable video, you can right click the video to pop up a menu which you can again right click on `Download Video` and copy the link address like so:
+
+![](https://i.imgur.com/SsxNFXV.png)
+
+<h4>Gfycat</h4>
+
+In a similar fashion to Streamable, you can right click a gfycat video and copy the link address:
+
+![](https://i.imgur.com/BPzKJMM.png)
+
+<h4>Youtube</h4>
+
+For Youtube, I recommend converting the video to Streamable and following the same method.
+
+# Contact
+Feel free to message me about any question you may have and i'll try to help out.
++ Twitter: **@Fuguzors**
++ Discord: **Fugu#1249**
