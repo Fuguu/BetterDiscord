@@ -1,2 +1,2 @@
-# BetterDiscord
-BetterDiscord stuff
+# BetterDiscord Themes
+Just themes I have
